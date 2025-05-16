@@ -12,37 +12,34 @@
       }
         
       /* Give topnav links inline-block display */
-      .topnav {
+      .topnav a{
          display:inline-block;
       }
-      .topnav a {
-         float:inline-start;
-         
-      }
+      
         
       /* Float column classes left, with border-box box sizing */
       .column {
          float:left;
          box-sizing:border-box;
-
       }
+      
       
       
 
       /* Set left and right columns to 25% width */
-      .column .side {
+    
+      .column.side {
          width:25%;
-
       }
 
       /* Set middle column to 50% */
-      .column .middle {
+      .column.middle {
          width:50%;
       }
         
       /* Make the footer clear both floated elements */
          .footer {
-            
+            clear:left;
          }
   
       </style>
